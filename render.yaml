@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: rcs-continental-racing-series
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: RCS_ADMIN_PASSWORD
+        sync: false
+      - key: RCS_DATA_DIR
+        value: /var/data
+    disk:
+      name: rcs-data
+      mountPath: /var/data
+      sizeGB: 1
