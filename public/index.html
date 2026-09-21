@@ -1,1 +1,105 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RCS — Continental Racing Series | Orange Hub</title><style>
+*{box-sizing:border-box}body{margin:0;background:#08090b;color:#f5f5f5;font-family:Arial,sans-serif}.top{height:74px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;border-bottom:1px solid #26292e;background:#0b0c0f;position:sticky;top:0;z-index:3}.logo{font-size:34px;font-weight:900}.logo span{color:#ff6a00}nav a{color:#ddd;text-decoration:none;margin-left:25px;font-size:11px;font-weight:800}.hero{min-height:650px;padding:130px 8%;display:flex;align-items:center;background:radial-gradient(circle at 75%,#242932,#090a0c 55%)}.hero h1{font-size:clamp(55px,9vw,110px);line-height:.8;margin:10px 0}.hero h1 span{color:#ff6a00}.ey{letter-spacing:4px;color:#999;font-size:11px}.btn{display:inline-block;margin-top:20px;background:#ff6a00;color:white;text-decoration:none;padding:14px 20px;font-size:11px;font-weight:800}.section{padding:75px 8%;max-width:1400px;margin:auto}.section.dark{max-width:none;background:#0f1012}.title{font-size:48px;margin:0 0 30px}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card,.panel{background:#14171b;border:1px solid #2b2f35;padding:20px}.card b{font-size:38px;display:block;margin-top:8px}.table{width:100%;border-collapse:collapse}.table td,.table th{padding:14px;border-bottom:1px solid #2b2f35;text-align:left}.table th{font-size:10px;color:#888}.calendar{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.race{padding:22px;background:#15181c;border:1px solid #2b2f35}.race b{font-size:22px}.race small{display:block;color:#888;margin-top:5px}.admin{position:fixed;right:18px;bottom:18px;background:#191c21;color:#fff;padding:10px 14px;text-decoration:none;font-size:10px;border:1px solid #333}@media(max-width:700px){nav{display:none}.cards{grid-template-columns:repeat(2,1fr)}.calendar{grid-template-columns:1fr}}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 0 55%,rgba(255,106,0,.11) 70%,transparent 85%);pointer-events:none}.hero>div{position:relative;z-index:1}.logo span,.ey{color:#ff6a00}.race:hover,.card:hover{border-color:#ff6a00;transform:translateY(-2px)}.race,.card{transition:.2s}.panel{box-shadow:0 15px 45px rgba(0,0,0,.18)}.btn{box-shadow:0 8px 24px rgba(255,106,0,.2)}
+.museum{background:linear-gradient(180deg,#0b0d10 0%,#111419 100%);max-width:none;padding-left:8%;padding-right:8%}
+.museum-head{display:flex;justify-content:space-between;align-items:center;gap:30px;margin-bottom:35px}
+.museum-sub{color:#858b94;font-size:13px;max-width:560px}
+.museum-badge{border:1px solid #3b3e43;padding:15px 22px;text-align:center;font-size:9px;letter-spacing:2px;color:#8f959d;line-height:1.7}
+.museum-badge span{font-size:30px;font-weight:900;color:#ff6a00;letter-spacing:-1px}
+.museum-panel{max-width:1250px;margin:auto;border:1px solid #2b2f35;background:#101216;box-shadow:0 20px 60px rgba(0,0,0,.28)}
+.museum-title{padding:25px 28px;border-bottom:1px solid #2b2f35;display:flex;justify-content:space-between;align-items:end}
+.museum-title h3{font-family:Arial,sans-serif;font-size:30px;margin:0;color:#fff}
+.museum-title>span{font-size:9px;color:#777e88;letter-spacing:2px}
+.hall-list{padding:10px 18px}
+.hall-item{display:grid;grid-template-columns:55px 1fr 1.3fr 80px;align-items:center;gap:18px;padding:20px 12px;border-bottom:1px solid #25282d;transition:.2s}
+.hall-item:last-child{border-bottom:0}
+.hall-item:hover{background:#171a1f}
+.hall-item.champion{border-left:3px solid #ff6a00;background:linear-gradient(90deg,rgba(255,106,0,.08),transparent)}
+.hall-rank{font-size:12px;color:#737982;font-weight:800}
+.hall-driver b{font-size:18px;letter-spacing:.5px}
+.hall-driver small{display:block;color:#686f79;font-size:8px;letter-spacing:1.5px;margin-top:4px}
+.hall-flags{font-size:20px;letter-spacing:3px}
+.hall-wins{text-align:right}
+.hall-wins strong{font-size:34px;color:#ff6a00;line-height:1}
+.hall-wins small{display:block;color:#777e88;font-size:8px;letter-spacing:1.5px;margin-top:4px}
+@media(max-width:700px){
+ .museum-head{align-items:flex-start}.museum-badge{display:none}
+ .hall-item{grid-template-columns:35px 1fr 65px;gap:8px}.hall-flags{grid-column:2;font-size:16px;order:3}.hall-wins{grid-column:3;grid-row:1/3}.hall-driver{grid-column:2}
+ .museum-title{display:block}.museum-title>span{display:block;margin-top:10px}
+}
+</style></head><body>
+<header class="top"><div class="logo"><span>RCS</span> <small>CONTINENTAL RACING SERIES</small></div><nav><a href="#classificacao">CLASSIFICAÇÃO</a><a href="#calendario">CALENDÁRIO</a><a href="#resultados">RESULTADOS</a><a href="#museu">MUSEU</a></nav></header>
+<section class="hero"><div><p class="ey">VIRTUAL MOTORSPORT • GT SERIES • 2026</p><h1>CONTINENTAL<br><span>RACING SERIES</span></h1><p style="color:#aaa">Velocidade. Estratégia. Competição.</p><a class="btn" href="#classificacao">VER CAMPEONATO</a></div></section>
+<section class="section"><p class="ey">TEMPORADA 2026</p><h2 class="title">CAMPEONATO</h2><div class="cards"><div class="card">PILOTOS<b id="driversN">—</b></div><div class="card">EQUIPES<b id="teamsN">—</b></div><div class="card">ETAPAS<b id="racesN">—</b></div><div class="card">RESULTADOS<b id="resultsN">—</b></div></div></section>
+<section id="classificacao" class="section dark"><p class="ey">CHAMPIONSHIP STANDINGS</p><h2 class="title">CLASSIFICAÇÃO</h2><div class="panel"><table class="table" id="stand"></table></div></section>
+<section id="calendario" class="section"><p class="ey">SEASON 2026</p><h2 class="title">CALENDÁRIO</h2><div class="calendar" id="calendar"></div></section>
+<section id="resultados" class="section dark"><p class="ey">RACE RESULTS</p><h2 class="title">RESULTADOS</h2><div class="panel"><table class="table" id="results"></table></div></section>
 
+<section id="museu" class="section museum">
+  <div class="museum-head">
+    <div>
+      <p class="ey">RCS HERITAGE • HISTÓRIA DA COMPETIÇÃO</p>
+      <h2 class="title">MUSEU RCS</h2>
+      <p class="museum-sub">Os pilotos que construíram a história da Continental Racing Series.</p>
+    </div>
+    <div class="museum-badge">HALL OF FAME<br><span>RCS</span></div>
+  </div>
+
+  <div class="museum-panel">
+    <div class="museum-title">
+      <div>
+        <p class="ey">RECORDES HISTÓRICOS</p>
+        <h3>MOST WINS</h3>
+      </div>
+      <span>VITÓRIAS POR PILOTO</span>
+    </div>
+
+    <div class="hall-list">
+      <article class="hall-item champion">
+        <div class="hall-rank">01</div>
+        <div class="hall-driver"><b>KAIKY</b><small>RECORDISTA RCS</small></div>
+        <div class="hall-flags">🇺🇸 🇧🇪 🇺🇸 🇦🇺 🇮🇹</div>
+        <div class="hall-wins"><strong>5</strong><small>WINS</small></div>
+      </article>
+
+      <article class="hall-item">
+        <div class="hall-rank">02</div>
+        <div class="hall-driver"><b>NZ MAX</b><small>HISTÓRIA RCS</small></div>
+        <div class="hall-flags">🇦🇹 🇺🇸 🇮🇹 🇩🇪</div>
+        <div class="hall-wins"><strong>4</strong><small>WINS</small></div>
+      </article>
+
+      <article class="hall-item">
+        <div class="hall-rank">03</div>
+        <div class="hall-driver"><b>LUCAS</b><small>HISTÓRIA RCS</small></div>
+        <div class="hall-flags">🇧🇪 🇧🇷 🇩🇪</div>
+        <div class="hall-wins"><strong>3</strong><small>WINS</small></div>
+      </article>
+
+      <article class="hall-item">
+        <div class="hall-rank">04</div>
+        <div class="hall-driver"><b>MONTENEGRO</b><small>HISTÓRIA RCS</small></div>
+        <div class="hall-flags">🇮🇹</div>
+        <div class="hall-wins"><strong>1</strong><small>WIN</small></div>
+      </article>
+
+      <article class="hall-item">
+        <div class="hall-rank">05</div>
+        <div class="hall-driver"><b>DRIZZY</b><small>HISTÓRIA RCS</small></div>
+        <div class="hall-flags">🇺🇸</div>
+        <div class="hall-wins"><strong>1</strong><small>WIN</small></div>
+      </article>
+
+      <article class="hall-item">
+        <div class="hall-rank">06</div>
+        <div class="hall-driver"><b>JEAN</b><small>HISTÓRIA RCS</small></div>
+        <div class="hall-flags">🇦🇺</div>
+        <div class="hall-wins"><strong>1</strong><small>WIN</small></div>
+      </article>
+    </div>
+  </div>
+</section>
+<a class="admin" href="/admin.html">ADMIN</a>
+<script>
+async function load(){let p=await fetch("/api/public").then(r=>r.json());let d=p.drivers,t=p.teams,r=p.races;document.getElementById("driversN").textContent=d.length;document.getElementById("teamsN").textContent=t.length;document.getElementById("racesN").textContent=r.length;let rs=await fetch("/api/results",{headers:{}}).catch(()=>null);document.getElementById("stand").innerHTML="<tr><th>#</th><th>PILOTO</th><th>EQUIPE</th><th>PTS</th></tr>"+d.map((x,i)=>`<tr><td>${i+1}</td><td>${x.name}</td><td>${x.team||"—"}</td><td><b>${x.points}</b></td></tr>`).join("");document.getElementById("calendar").innerHTML=r.map(x=>`<div class="race"><b>R${x.round} — ${x.name}</b><small>${x.country} • ${x.date} • ${x.status}</small></div>`).join("");document.getElementById("resultsN").textContent="";document.getElementById("results").innerHTML="<tr><th>ETAPA</th><th>PILOTO</th><th>POS.</th><th>PTS</th></tr><tr><td colspan=4 style='color:#888'>Os resultados completos ficam disponíveis no painel administrativo.</td></tr>"}load();
+</script></body></html>
